@@ -1,14 +1,15 @@
 using FluentValidation;
+using Web.API.DTOs;
 
 namespace Web.API.Validators;
 
-public class BookValidator : AbstractValidator<Book>
+public class CreateBookDtoValidator : AbstractValidator<CreateBookDto>
 {
-    public BookValidator()
+    public CreateBookDtoValidator()
     {
-        RuleFor(b => b.Isbn)
-            .Matches(@"^[0-9]{13}$")
-            .WithMessage("ISBN should contain 13 digits");
+        // RuleFor(b => b.Isbn)
+        //     .Matches(@"^[0-9]{13}$")
+        //     .WithMessage("ISBN should contain 13 digits");
         RuleFor(b => b.Title)
             .NotEmpty()
             .WithMessage("Title is required");
