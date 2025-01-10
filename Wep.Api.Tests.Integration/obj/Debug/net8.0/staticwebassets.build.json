@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "rU3uXP/ZIapyMr7yaIbdFxOgNHMDlwoGNVWlt1zT5mw=",
+  "Source": "Wep.Api.Tests.Integration",
+  "BasePath": "_content/Wep.Api.Tests.Integration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/ritech/RiderProjects/Web.API/Web.API/Web.API.csproj",
+      "Version": 2,
+      "Source": "Web.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Wep.Api.Tests.Integration.props" />
+</Project>
